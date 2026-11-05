@@ -25,7 +25,7 @@ data-warehouse-project/
 
 The project follows the Medallion Architecture, with **Bronze**, **Silver** and **Gold** layers inside SQL Server.
 
-![High-level architecture](docs/high_level_architecture.png)
+![High-level architecture](https://github.com/tanveer-99/SQL_Data_Warehouse_Project/blob/main/docs/high-level-architecture.png)
 
 1. **Bronze layer:** stores the raw data as-is from the source systems. The CSV files are loaded straight into SQL Server tables.
 2. **Silver layer:** cleans, standardises and normalises the data to prepare it for analysis.
@@ -127,7 +127,7 @@ The keys don't match as delivered. The silver layer reshapes them (removing pref
 
 The gold layer is a **star schema** with one fact table and two dimensions.
 
-![Data model: star schema](docs/data_model.png)
+![Data model: star schema](https://github.com/tanveer-99/SQL_Data_Warehouse_Project/blob/main/docs/data%20model.png)
 
 | Object | Type | What one row represents |
 |---|---|---|
