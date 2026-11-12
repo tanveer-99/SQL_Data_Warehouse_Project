@@ -21,6 +21,7 @@ Highlights:
 ===============================================================================
 */
 
+CREATE VIEW gold.report_products AS
 -- base query: retrieves core columns from fact_sales and dim_products
 WITH base_query AS (
 SELECT
